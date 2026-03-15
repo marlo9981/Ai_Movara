@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "type": "debugpy",
+      "request": "launch",
+      "name": "Hello Python",
+      "program": "${workspaceFolder}/hello.py"
+    },
+    {
+      "type": "debugpy",
+      "request": "launch",
+      "name": "Notebook",
+      "program": "${workspaceFolder}/notebook_guide.ipynb"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Python Files",
+      "configurations": ["Hello Python", "Notebook"],
+      "preLaunchTask": "${defaultBuildTask}",
+      "stopAll": true
+    }
+  ]
+}
