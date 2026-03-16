@@ -1,6 +1,33 @@
 {
   "version": "0.2.0",
   "configurations": [
+    {
+      "name": "Python Debugger: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python Debugger: Current File with Arguments",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "args": "${command:pickArgs}"
+    },
+    {
+      "args": [
+        "--extensionDevelopmentPath=${workspaceFolder}"
+      ],
+      "name": "Launch Extension",
+      "outFiles": [
+        "${workspaceFolder}/out/**/*.js"
+      ],
+      "preLaunchTask": "npm",
+      "request": "launch",
+      "type": "extensionHost"
+    },
     
     {
       "type": "debugpy",
@@ -18,7 +45,10 @@
   "compounds": [
     {
       "name": "Python Files",
-      "configurations": ["Hello Python", "Notebook"],
+      "configurations": [
+        "Hello Python",
+        "Notebook"
+      ],
       "preLaunchTask": "${defaultBuildTask}",
       "stopAll": true
     }
