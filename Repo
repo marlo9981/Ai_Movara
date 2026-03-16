@@ -1,7 +1,12 @@
 echo "# Ai_Movara" >> README.md
+git plugins
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/marlo9981/Ai_Movara.git
 git push -u origin main
+You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
