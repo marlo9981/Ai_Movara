@@ -1,0 +1,6 @@
+interface:
+  display_name: "Ai Movara"
+  short_description: "Repo-specific patterns and workflows for Ai_Movara"
+  default_prompt: "Use the Ai_Movara repo skill to follow existing architecture, testing, and workflow conventions."
+policy:
+  allow_implicit_invocation: true
