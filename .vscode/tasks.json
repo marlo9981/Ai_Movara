@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "Claude/everything-claude-code-main/.opencode",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - Claude/everything-claude-code-main/.opencode",
+			"detail": "tsc"
+		}
+	]
+}
