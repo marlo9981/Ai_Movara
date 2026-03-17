@@ -6,6 +6,7 @@
 	],
 	"settings": {
 		"python-envs.defaultEnvManager": "ms-python.python:system",
-		"workbench.list.multiSelectModifier": "alt"
+		"workbench.list.multiSelectModifier": "alt",
+		"CodeGPT.apiKey": "Claude Code"
 	}
 }
