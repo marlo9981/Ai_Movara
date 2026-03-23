@@ -1,0 +1,124 @@
+# Instincts generated from https://github.com/marlo9981/Ai_Movara
+# Generated: 2026-03-16T03:58:57.205Z
+# Version: 2.0
+
+---
+id: Ai_Movara-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/marlo9981/Ai_Movara
+---
+
+# Ai_Movara Commit Length
+
+## Action
+
+Keep commit messages concise (under 50 characters)
+
+## Evidence
+
+- Average commit message length: 15 chars
+- Based on 7 commits
+
+---
+id: Ai_Movara-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/marlo9981/Ai_Movara
+---
+
+# Ai_Movara Naming Files
+
+## Action
+
+Use camelCase naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: camelCase
+
+---
+id: Ai_Movara-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/marlo9981/Ai_Movara
+---
+
+# Ai_Movara Export Style
+
+## Action
+
+Prefer mixed exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: mixed
+
+---
+id: Ai_Movara-test-framework
+trigger: "when writing tests"
+confidence: 0.9
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/marlo9981/Ai_Movara
+---
+
+# Ai_Movara Test Framework
+
+## Action
+
+Use unknown as the test framework
+
+## Evidence
+
+- Test framework detected: unknown
+- File pattern: *.test.js
+
+---
+id: Ai_Movara-test-naming
+trigger: "when creating a test file"
+confidence: 0.85
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/marlo9981/Ai_Movara
+---
+
+# Ai_Movara Test Naming
+
+## Action
+
+Name test files using the pattern: *.test.js
+
+## Evidence
+
+- File pattern: *.test.js
+- Consistent across test files
+
+---
+id: Ai_Movara-test-types
+trigger: "when planning tests for a feature"
+confidence: 0.7
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/marlo9981/Ai_Movara
+---
+
+# Ai_Movara Test Types
+
+## Action
+
+Write unit, integration tests to match project standards
+
+## Evidence
+
+- Test types detected: unit, integration
+- Coverage config: yes
+
