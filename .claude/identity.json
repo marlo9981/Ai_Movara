@@ -2,13 +2,13 @@
   "version": "2.0",
   "technicalLevel": "technical",
   "preferredStyle": {
-    "verbosity": "detailed",
-    "codeComments": false,
-    "explanations": false
+    "verbosity": "minimal",
+    "codeComments": true,
+    "explanations": true
   },
   "domains": [
     "javascript"
   ],
   "suggestedBy": "ecc-tools-repo-analysis",
-  "createdAt": "2026-03-16T03:58:57.205Z"
+  "createdAt": "2026-03-23T06:56:11.164Z"
 }
